@@ -7,20 +7,23 @@
     <title>AI Spanish Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Spanish poem generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the Spanish poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-        <div>
+    <div class="container">
+      <header>
+        <h1>AI Spanish poem generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the Spanish poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
           The poem will go here
           <br />
           The poem will go here
@@ -28,24 +31,24 @@
           The poem will go here
           <br />
         </div>
-      </form>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/Stella5791" target="_blank">Stella Bullo</a>;
-      it is
-      <a
-        href="https://github.com/Stella5791/spanish-poem-generator"
-        target="_blank"
-        >open sourced on GitHub</a
-      >
-      and hosted on
-      <a
-        href="https://ai-spanish-poem-generator-stella.netlify.app/"
-        target="_blank"
-        >Netlify</a
-      >
-    </footer>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/Stella5791" target="_blank">Stella Bullo</a
+        >; it is
+        <a
+          href="https://github.com/Stella5791/spanish-poem-generator"
+          target="_blank"
+          >open sourced on GitHub</a
+        >
+        and hosted on
+        <a
+          href="https://ai-spanish-poem-generator-stella.netlify.app/"
+          target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
