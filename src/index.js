@@ -9,7 +9,6 @@ function generatePoem(event) {
     delay: 1,
     cursor: "",
   });
-  poemElement.innerHTML = "me basta con saber";
 }
 
 let poemFormElement = document.querySelector("#poem-generator-form");
